@@ -74,6 +74,7 @@ We love pull requests! Before forking and creating a pull request, it is usually
 -   **Address any CI failures.** If your changes don't pass all continuous integration checks, please push a fix.
 - **When writing comments, use properly constructed sentences, including punctuation.** Comments and documentation are meant to help with understanding code, not add to unclarity.
 - **Use spaces, not tabs.** This is technically already included in coding style but as this is a quasi-religious discussion specifically calling this out is warranted.
+- **Follow the guidelines highlighted in [Expectations on contributors](#Expectations-on-contributors)**
 
 ## :memo: Writing Commit Messages
 
@@ -95,6 +96,19 @@ Consistency is the most important. Following the existing style, formatting, and
 For example, if all private properties are prefixed with an underscore `_`, then new ones you add should be prefixed in the same way. Or, if methods are named using camelcase, like `thisIsMyNewMethod`, then do not diverge from that by writing `this_is_my_new_method`. You get the idea. If in doubt, please ask or search the codebase for something similar.
 
 When possible, style and format will be enforced with a linter.
+
+## Expectations on contributors
+If you want to contribute to cis_oss projects, you need to collaborate with the maintainers
+
+The submitter is responsible for the code change, regardless of where
+that code change came from, whether they wrote it themselves, used an
+"AI" or other tool, or got it from someone else. That responsibility
+includes making sure that the code change can be submitted under the license of the given project.
+
+The submitter needs to understand what code they are changing,
+what the change does, and justify that change in the commit messages.
+Using coding assistants, "AI" or other tools does not grant additional
+privileges or reduce our expectations.
 
 ## :medal_sports: Certificate of Origin
 
